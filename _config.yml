@@ -6,37 +6,45 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: fun4gao
+brief-intro: Everything that counts
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://zhoushun123.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: fun4gao
+facebook_username: fun4gao
+github_username:  zhoushun123
+email: fun4gao@gmail.com
+weibo_username: fun4gao
+zhihu_username: fun4gao
+linkedIn_username: fun4gao
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 随便写写
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+# 这两个插件都不行了，用了Gitalk
+#duoshuo_shortname: #hygblog
+#disqus_shortname: gaohaoyang
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: fc107df9a0f54f393e6f                            #生成的clientID
+  clientSecret: fa9fb1d24b654a287a9addd64a90cbe07ab27147    #生成的clientSecret
+  repo: zhoushun123.github.io    #仓库名称
+  owner: zhoushun123    #github用户名
+  admin: zhoushun123
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: 8179040a277f6ad71705342f19e9b776
+google_analytics_id: UA-251769-5 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
