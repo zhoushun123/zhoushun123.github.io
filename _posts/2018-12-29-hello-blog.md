@@ -42,3 +42,7 @@ repo里有说明怎么改，主要改`_config.yml`，把里面的个人信息改
 ![]({{ "/assets/images4post/2018-12-29-hello-blog/timezone.jpg" | absolute_url }})
 
 最后只有评论系统和Baidu/Google分析没验证了，这个本地验证不了，得push到Github才行。那本地修改就到此为止了，push吧，祝我好运。
+
+---
+
+果然还有坑。我用`VSCode`在windows下编辑，默认行尾是回车换行，得改成换行，不然首页摘要显示有问题，因为是用4个换行作为分隔符，还有about和collections页面的评论也不正常。行尾换成换行就好了。

@@ -44,7 +44,7 @@ gitalk:
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 8179040a277f6ad71705342f19e9b776
-google_analytics_id: UA-251769-5 # google 分析追踪id
+google_analytics_id: UA-251769-5
 
 # Build settings
 markdown: kramdown
