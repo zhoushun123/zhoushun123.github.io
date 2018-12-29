@@ -52,10 +52,10 @@
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
     var gitalk = new Gitalk({
-
     // gitalk的主要参数
+        
         clientID: '{{site.gitalk.clientID}}',
         clientSecret: '{{site.gitalk.clientSecret}}',
         repo: '{{site.gitalk.repo}}',
@@ -65,7 +65,7 @@
         perPage: 50,
         distractionFreeMode: true
     });
-    gitalk.render('gitalk-container');
+gitalk.render('gitalk-container');
 </script>
 {% endif %}
 <!-- Gitalk end -->

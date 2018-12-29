@@ -9,7 +9,7 @@ tags: jekyll Github Gitalk
 * content
 {:toc}
 
-一直以来就想在Github上搭建一个blog，为什么？因为感觉比较Geek。拖拖拉拉，东看西看，终于下定决心动手了，基本上就是copy&paste，没什么技术含量，只是前面花了不少时候找合适的jekyll主题。第一篇笔记不名俗地来了个`Hello Blog`。
+一直以来就想在Github上搭建一个blog，为什么？因为感觉比较Geek。拖拖拉拉，东看西看，终于下定决心动手了，基本上就是copy&paste，没什么技术含量，只是前面花了不少时候找合适的jekyll主题。第一篇笔记不免俗地来了个`Hello Blog`。
 
 
 
